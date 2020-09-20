@@ -70,45 +70,36 @@
 	<!-- END LOADER -->
 
 	<!-- Start header -->
-	<header class="top-navbar">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<div class="container" style="margin-right:90px">
-				<a class="navbar-brand" href="https://www.iiti.ac.in">
-					<img src="images/iitilogo.png" alt="" />
-				</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-seo" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
-				  <span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbars-seo" style="align:center">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
 
-						<li class="nav-item"><a class="nav-link" href="#categories">Categories</a></li>
-            <li class="nav-item"><a class="nav-link" href="#Team">Team</a></li>
-						<!-- <li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Reports </a>
-							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="index.html">Bai Gram</a>
-								<a class="dropdown-item" href="index.html">Indra Aawas</a>
-								<a class="dropdown-item" href="index.html">Jagjivan Gram</a>
-								<a class="dropdown-item" href="index.html">Mirzapur</a>
-								<a class="dropdown-item" href="index.html">Nayagoan</a>
+    <header>
+    <div class="topnav" id="myTopnav" >
+    <a href="#home" class="active">Home</a>
+    <a href="#introduction">Activities</a>
+    <a href="#upcomingevents">Categories</a>
+    <a href="#meetourteam">Meet our team</a>
+    <a href="#contactus">Contact us</a>
+    <p style="float:right ;padding-top:13px" ><b style="color:white">UNNAT BHARAT ABHIYAAN</b><b >|</b><b style="color:white">IIT INDORE</b></p>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
 
-							</div>
-						</li> -->
-						<li class="nav-item"><a class="nav-link" href="#activities">Activities</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact_details">Contact Us</a></li>
-					</ul>
+  </div>
 
-				</div>
-        <a style="margin-left:50px"class="navbar-brand" href="http://unnatbharatabhiyan.gov.in:8080/new-website/">
-          <img src="images/rsz_ubalogo.jpg" alt="" />
-        </a>
-			</div>
-		</nav>
-	</header>
+
+
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+  </header>
 	<!-- End header -->
-  <div id="demo" style="background-color:#3f97c9" class="carousel slide" data-ride="carousel">
+  <div id="demo" style="background-color:#fffff" class="carousel slide" data-ride="carousel">
 
   <!-- Indicators -->
   <ul class="carousel-indicators" >
@@ -136,10 +127,10 @@
 
   <!-- Left and right controls -->
   <a class="carousel-control-prev" href="#demo" data-slide="prev" >
-    <span class="carousel-control-prev-icon" ></span>
+    <span class="carousel-control-prev-icon" style="background-color:#0594A9"></span>
   </a>
   <a class="carousel-control-next" href="#demo" data-slide="next" >
-    <span class="carousel-control-next-icon" "></span>
+    <span class="carousel-control-next-icon" style="background-color:#0594A9"></span>
   </a>
 </div>
     <!-- <div id="slider" class="sl-slider-wrapper">
@@ -195,8 +186,17 @@
 -moz-box-shadow: 10px 10px 5px 0px rgba(69,131,133,1);
 box-shadow: 10px 10px 5px 0px rgba(69,131,133,1);">
                     <div class="message-box" style="margin-left:8px;margin-top:1px;">
+                      <div>
+                        <div style="float:left">
+                      <img src="images/iitilogo.png">
+                    </div>
+                    <div style="float:right">
+                      <img src="images/rsz_ubalogo.jpg">
+                    </div>
+                  </div>
+
                         <!-- <h4>SEO Company</h4> -->
-                        <h2>Unnat Bharat Abhiyaan</h2>
+                        <h2 style="padding-top:120px;text-align:center;text-shadow:0 0 3px #FF0000">Unnat Bharat Abhiyaan</h2>
                         <p><b>Unnat Bharat Abhiyaan</b> is a flagship programme of the ministry of Human Resource Development,with the intention to enrich rural India.<br>
                         The knowledge base and resources of the premier institutions of the country are to be leveraged to bring in transformational change in the rural development process.<br>
                       </p>
@@ -218,7 +218,7 @@ box-shadow: 10px 10px 5px 0px rgba(69,131,133,1);">
                     <div class="post-media wow fadeIn">
                         <img src="images/UBAFD.png" alt="" class="img-fluid">
                     </div><!-- end media -->
-                    <div style="margin-left:130px"><video width="320" height="240" controls>
+                    <div style="align:center"><video width="320" height="240" controls>
   <source src="video/videoplayback.mp4" type="video/mp4"></div>
   <!-- <source src="movie.ogg" type="video/ogg">
 Your browser does not support the video tag. -->
